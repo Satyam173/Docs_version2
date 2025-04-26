@@ -2,7 +2,8 @@ import React from 'react';
 import { FaRegFileAlt } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa6";
 import { IoMdClose } from "react-icons/io";
-import { } from "motion/react"
+import { motion, scale } from "motion/react";
+
 
 function Card({data , reference}) {
   return (
